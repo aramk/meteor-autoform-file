@@ -1,20 +1,20 @@
 Package.describe({
-  name: "yogiben:autoform-file",
+  name: "aramk:autoform-file",
   summary: "File upload for AutoForm",
   description: "File upload for AutoForm",
-  version: "0.4.2",
+  version: "0.4.2_1",
   git: "https://github.com/yogiben/autoform-file.git"
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('METEOR@1.1');
+  api.versionsFrom('METEOR@1.6.1');
 
   api.use([
     'check',
-    'coffeescript',
+    'coffeescript@2.2.1_1',
     'underscore',
     'reactive-var',
-    'templating',
+    'templating@1.3.2',
     'less@1.0.0 || 2.5.1',
     'aldeed:autoform@5.5.1',
     'fortawesome:fontawesome@4.5.0',
